@@ -1,0 +1,230 @@
+#home, #aboutus, #gallery, #services, #contactus{
+    scroll-margin-top: 3.3rem;
+
+}
+/* header */
+
+.nav-btn i{
+    font-size: 1.6rem;
+    margin-right: 10px;
+    /* padding-top: 3px; */
+}
+.nav-btn{
+    display: none;
+    cursor: pointer;
+}
+#hide{
+    display: none;
+}
+@media only screen and (max-width: 991px){
+    .nav-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-items{
+        width: 40%;
+        height: 60vh;
+        font-weight: bold;
+        /* color: black; */
+        margin-left: auto;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        background-color: #e67e22;
+        /* border: 2px solid black; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        
+    }
+    .menu-items ul li{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .menu-items form{
+        display: block;
+        /* margin: auto; */
+        text-align: center;
+    }
+    .menu-items form input{
+        margin: 10px 0;
+    }
+    .active #hide{
+        display: block;
+    }
+    .active #show{
+        display: none;
+    }
+}
+.section{
+    padding: 40px 0;
+}
+p{
+    margin: 0;
+}
+.navbar{
+    background-color: #e67e22;
+    color: black;
+    /* position: fixed; */
+}
+
+
+#banner{
+    background: url("https://static-cse.canva.com/blob/569675/20webdesignprinciplestofollowfeaturedimage.png") no-repeat 0  0;
+    background-size: cover;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: white;
+    background: rgba(231, 76, 60, 0.7);
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.service-box i.fa{
+    color: #e67e22;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.section h2.section-head{
+    /* color: #000; */
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section h2.section-head::after{
+    background-color: #e67e22;
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 13px auto;
+}
+.testimonials{
+    color: rgb(253, 253, 253);
+    background: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat 0 0;
+    background-size: cover;
+    /* padding:  0; */
+    position: relative;
+}
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 1.35rem;
+}
+.news-post p{
+    padding-bottom: 0;
+    margin-bottom: 1.5px;
+}
+.news-post h3 a{
+    color: #e74c3c;
+    text-decoration: none;
+}
+.post-date{
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+.post-date::before{
+    content: "\f073";
+    font-family: fontAwesome;
+    padding-right: 5px;
+}
+a.readmore{
+    font-size: 14px;
+    color: #e74c3c;
+    /* padding-top: 1px; */
+    text-decoration: none;
+}
+a.readmore::after{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-left: 5px;
+}
+#footer{
+    color: white;
+    background: #34495e;
+    padding: 20px 0;
+}
+.footer-widget h4::after{
+    content: "";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+
+}
+.footer-widget a{
+    color: #fff;
+    text-decoration: none;
+}
+.latest-news{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.latest-news li{
+    margin-bottom: 3px;
+}
+.latest-news li::before{
+    content: "\f101";
+    font-family: fontAwesome;
+    padding-right: 5px; 
+}
+.footer-item{
+    color: #fff;
+    background: #2c3e50;
+    padding: 10px 0;
+}
+#social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    /* float: right; */
+}
+#social-icons li{
+    /* display: inline-block; */
+    padding-left: 5px;
+}
+#social-icons li a{
+    color: #fff;
+    font-size: 23px;
+}
+.form-inline{
+    display: flex;
+    margin-left: 10px;
+    justify-content: end;
+}
+.nav-item a{
+    font-weight: bold;
+    color: rgb(72, 70, 70);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 8px 12px;
+}
+.nav-item a:hover{
+    background: #d35400;
+    color: rgb(227, 214, 214);
+        /* color: white; */
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
